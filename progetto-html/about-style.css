@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "JosefinSans";
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf) format('truetype') ;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFFFFF;
+  font-size: 13px;
+  }
+page{
+  font-family: "JosefinSans";
+}
+header{
+  display: flex;
+  flex-direction: row;
+  height:
+  overflow:hidden;
+}
+.logo{
+  width: 200px;
+  align-self: flex-start;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+
+}
+li{
+  list-style: none;
+  font-weight: 700;
+  margin-top: 20px;
+}
+header a:visited, header a:link{
+  color: #1D3579;
+  text-decoration: none;
+}
+header a:hover{
+  color: #FF5300
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  background-color: #FF5300;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uno, .due, .tre, .quattro{
+  width: 50%;
+  height: 280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+a:link, a:active, a:visited{
+  text-decoration-color: #FFFFFF;
+}
+.uno:hover, .due:hover, .tre:hover, .quattro:hover{
+  border: 5px solid #EA3579;
+}
+.uno{
+  background-color: #FF5300;
+}
+.due{
+  background-color: #1D3579;
+}
+.tre{
+  background-color: #25A684;
+}
+.quattro{
+  background-color: #FF7600;
+}
+h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+}
+section{
+  margin: 0 15%;
+  display: grid;
+
+}
+h2{
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.opera h2{
+    color: #FF5300;
+}
+
+
+p{
+  font-weight: 300;
+  color: grey;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.storia h2{
+  color: #1D3579;
+}
+.opera strong{
+  text-decoration: none;
+  font-style: normal;
+  color: #FF5300;
+}
+.storia strong{
+  text-decoration: none;
+  font-style: normal;
+  color: #1D3579;
+}
+
+.right{
+  text-align: right;
+  margin-left: 10%;
+}
+
+.collabs h2, .collabs strong{
+  color: #25A684;
+}
+
+.rox h2, .rox strong{
+   color: #FF7600;
+}
+.photo{
+  display: flex;
+  flex-flow: row;
+  }
+.photo p{
+  margin-left: 10px;
+  margin-top: 15px;
+}

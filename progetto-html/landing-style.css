@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FF5300;
+  }
+  .landing{
+    width: 350px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    }
+    .link{
+      position: absolute;
+      top: 150px;
+      overflow: hidden;
+      align-items: center;
+    }
+    .active-button{
+      position: absolute;
+      top: 150px;
+      overflow: hidden;
+    }
